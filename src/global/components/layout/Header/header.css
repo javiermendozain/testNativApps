@@ -1,0 +1,33 @@
+
+.logo {
+  height: 30px;
+  justify-self: center;
+}
+  
+.header {
+  display: grid;
+  grid-template-columns: minmax(150px,400px) 1fr;
+  height: 50px;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, .1);
+  align-items: center;
+}
+
+nav{
+  display: flex;
+
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+}
+
+a{
+  text-decoration-line: none;
+  color: #000;
+}
+
+.is-selected {
+  border-bottom: 1px solid #000;
+}
