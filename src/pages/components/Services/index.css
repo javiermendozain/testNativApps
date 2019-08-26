@@ -1,4 +1,463 @@
-.girls-initial{
+
+/* Section Tutorias Online */
+
+
+.containerOverlay img{
     clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
 }
 
+.containerOverlay {
+    position: relative;
+}
+
+.onlineClassOverlay {
+    background: rgba(255,176,0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
+.tutoring{
+    /* font-size: '24px'; */
+}
+
+.dividerWhite{
+    border-bottom: 2px solid #FFF;   
+    margin: 2px 0;
+
+}
+
+.dividerBrown{
+    border-bottom: 2px solid #DA9428;   
+    width: 210px;
+    justify-items: center;
+  
+}
+
+.dividerBrownQuality{
+    border-bottom: 2px solid #DA9428;   
+    width: 210px;
+    justify-items: center;
+  
+}
+
+/* Setions how work */
+.how-work{
+    display: grid;
+    text-align: center;
+}
+
+.conatiner-steps{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 5px;
+}
+
+.container-step-1 img,
+.container-step-2 img,
+.container-step-3 img,
+.container-step-4 img{
+    width: 100%;
+}
+
+.container-step-1, .container-step-2,.container-step-3,.container-step-4 {
+    width: 1r;
+    position: relative;
+}
+
+.numbStepOverlay-1,
+.numbStepOverlay-2,
+.numbStepOverlay-3,
+.numbStepOverlay-4 {
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 10vw; 
+}
+
+.numbStepOverlay-1{
+    left: 0;
+    right: 20%;
+    top: 0;
+    bottom: 10%;
+}
+.numbStepOverlay-2{
+    left: 0;
+    right: 20%;
+    top: 0;
+    bottom: 0;
+}
+.numbStepOverlay-3{
+    left: 0;
+    right: 20%;
+    top: -5%;
+    bottom: 0;
+}
+.numbStepOverlay-4{
+    left: 0;
+    right: 15%;
+    top: -10%;
+    bottom: 0;
+}
+
+.container-step-2 img{
+    -moz-transform: rotate(-15deg);
+     -o-transform: rotate(-15deg);
+     -webkit-transform: rotate(-15deg);
+     transform: rotate(-15deg);
+}
+
+.container-step-3 img{
+    -moz-transform: rotate(10deg);
+     -o-transform: rotate(10deg);
+     -webkit-transform: rotate(10deg);
+     transform: rotate(10deg);
+}
+
+.container-step-4 img{
+    -moz-transform: rotate(80deg);
+     -o-transform: rotate(80deg);
+     -webkit-transform: rotate(80deg);
+     transform: rotate(80deg);
+}
+
+
+/*Section subscribe 1 */
+
+.container-susbscribe{
+    display: grid;
+    justify-items: center;
+    height: -webkit-fill-available;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.triangle{
+    width: 100%;
+    height: 20%;
+}
+.content-susbscribe{
+    height: 80%;
+
+}
+
+.triangleSubscribe{
+    position: relative;
+}
+
+.triangle img{
+    width: 20%;
+    
+}
+
+.discount{
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 10vw; 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.liveClass{
+    margin-top: 10px;
+}
+
+.btn-email{
+    background: transparent;
+    height: 42px;
+    width: 220px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 0.7vw;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+
+.content-interesting{
+    position: absolute; 
+    justify-content: center;
+    display: flex;
+    left: 42.5vw;
+}
+
+.btn-interesting{
+    position: relative;
+    width: 120px;
+}
+
+.text-interesting{
+    position: absolute;
+    display: flex;
+    color: white;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+}
+
+
+
+
+/* Section plans */
+
+
+.plans{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.headers-text{
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 5px;
+    justify-self: center;
+}
+
+.container-plans{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    grid-template-columns:  [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr 
+                            [c5] 1fr [c6] 1fr [c7] 1fr [c8] 1fr 
+                            [c9] 1fr [c10] 1fr [c11] 1fr [c12] 1fr 
+                            [c13] 1fr [c14] 1fr [c15] 1fr [c16] 1fr  
+                            [c17] 1fr [c18] 1fr [c19];
+    margin: 50px;
+}
+
+.plan-1 img,
+.plan-2 img,
+.plan-3 img,
+.plan-4 img,
+.plan-5 img{
+    width: 100%;
+}
+
+.plan-1, .plan-2,.plan-3,.plan-4, .plan-5 {
+    width: 1fr;
+    position: relative;
+}
+
+.plan-1 {
+    grid-column: c1 / c7;
+}
+
+.plan-2{
+    grid-column: c7 / c13;
+}
+.plan-3{
+    grid-column: c13 / c19;
+}
+.plan-4 {
+    grid-column: c3 / c9;
+}
+ .plan-5 {
+    grid-column: c10 / c16;
+}
+
+.promo img{
+    width: 8vw;
+    position: absolute;
+    right: 2vw;
+    top: -2vw;
+}
+
+.premium img{
+    width: 8vw;
+    position: absolute;
+    right: 2vw;
+    top: -2vw;
+}
+
+.costPlan{
+    color: white;
+    position: absolute;
+    font-size: 4vw;
+    right: 8vw;
+    top: 2vw;
+}
+
+.typePlan{
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    right: 10vw;
+    top: 8.5vw;
+}
+
+.detailPlan{
+    position: absolute;
+    display: grid;
+    /*          : filas columnas;*/
+    grid-template: repeat(4,minmax(4vw,min-content))/ 15% 85%;
+    grid-template-areas: "number hour"
+                        "number onClass"
+                        "detail detail"
+                        "btn-select btn-select";
+
+    justify-items: center;
+    align-content: center;
+    justify-items: start;
+    padding: 1vw;
+    width: 60%;
+    height: 35%;
+    font-size: 2vw;
+    right: 5vw;
+    bottom: 8.5vw;
+}
+
+.number{
+    color: red;
+    grid-area: number;
+    font-size: 5vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+
+}
+.hour {
+    grid-area: hour;
+    font-size: 3vw;
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    align-content: center;
+    text-align: start;
+    margin: 0;
+}
+.onClass{
+    grid-area: onClass;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5vw;
+    text-align: start;
+}
+
+.detail{
+    grid-area: detail;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.2vw;
+    text-align: start;
+}
+
+.btn-select{
+    grid-area: btn-select;
+    width: 100%
+}
+
+.detailPlan img{
+    width: 10vw;
+}
+
+
+/* Subscribe & free class */
+
+.subscribe{
+    display: grid;
+    align-content: start;
+    position: absolute;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 13vw;
+    bottom: 0;
+}
+
+/* services & quality */
+.servicesQuality{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+.servicesQuality img{
+    width: 200px;
+}
+.servicesQuality p{
+    text-align: center;
+}
+
+.titleServiceQuality{
+    font-size: 4vw;
+    padding: 0 30%;
+}
+.textServiceQuality{
+    padding: 0 20%;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    justify-self: stretch;
+    margin-top: 10px;
+}
+
+/* Footer & conditions */
+
+
+.footerOverlay {
+    background: rgba(255,176,0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    top: 0;
+    display: grid;
+    align-items: end;
+    justify-items: start;
+    color: white;
+    text-align: start;
+    padding: 30px;
+    -webkit-clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
+.footerContainer{
+    position: relative;
+}
+.youtubeFooter{
+    position: absolute;
+    left: 0;
+    right: 30px;
+    bottom: 15px;
+    top: 0;
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}
+
+.youtubeFooter img{
+    width: 120px;
+}

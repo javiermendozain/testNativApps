@@ -2,3 +2,9 @@
 
     text-align: center;
 }
+
+@media screen and (max-width:400px) {
+    .App-footer{
+        margin-top: 50px;
+    }
+}

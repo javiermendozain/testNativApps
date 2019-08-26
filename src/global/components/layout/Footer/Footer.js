@@ -7,7 +7,7 @@ import './footer.css';
 const Footer=()=>{
     return (
        <footer className="App-footer">
-           &copy; Copyrigth Footer
+           &copy; Copyrigth <br/> Created by: Javier Mendoza with ❤
        </footer>
   )
 }

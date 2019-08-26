@@ -6,9 +6,9 @@
   
 .header {
   display: grid;
-  grid-template-columns: minmax(150px,400px) 1fr;
+  grid-template-columns: 1fr 1fr;
   height: 50px;
-  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, .05);
   align-items: center;
 }
 
@@ -30,4 +30,31 @@ a{
 
 .is-selected {
   border-bottom: 1px solid #000;
+}
+
+
+.title{
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+
+@media screen and (max-width:400px) {
+  .header {
+    height: initial;
+    display: initial;
+
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .navbar-toggler img{
+  }
+
+  .title{
+    font-size: initial;
+  }
+
 }
