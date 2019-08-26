@@ -1,0 +1,225 @@
+
+
+/* Section plans */
+
+
+.plans{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.text-header-plan strong{
+    font-size: 4vw;
+    line-height: 1 !important;
+}
+.headers-text{
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 5px;
+    justify-self: center;
+}
+
+.container-plans{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    grid-template-columns:  [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr 
+                            [c5] 1fr [c6] 1fr [c7] 1fr [c8] 1fr 
+                            [c9] 1fr [c10] 1fr [c11] 1fr [c12] 1fr 
+                            [c13] 1fr [c14] 1fr [c15] 1fr [c16] 1fr  
+                            [c17] 1fr [c18] 1fr [c19];
+    margin: 50px;
+}
+
+.plan-1 img,
+.plan-2 img,
+.plan-3 img,
+.plan-4 img,
+.plan-5 img{
+    width: 100%;
+}
+
+.plan-1, .plan-2,.plan-3,.plan-4, .plan-5 {
+    width: 1fr;
+    position: relative;
+}
+
+.plan-1 {
+    grid-column: c1 / c7;
+}
+
+.plan-2{
+    grid-column: c7 / c13;
+}
+.plan-3{
+    grid-column: c13 / c19;
+}
+.plan-4 {
+    grid-column: c3 / c9;
+}
+ .plan-5 {
+    grid-column: c10 / c16;
+}
+
+.promo img{
+    width: 8vw;
+    position: absolute;
+    right: 2vw;
+    top: -2vw;
+}
+
+.premium img{
+    width: 8vw;
+    position: absolute;
+    right: 2vw;
+    top: -2vw;
+}
+
+.costPlan{
+    color: white;
+    position: absolute;
+    font-size: 4vw;
+    right: 9vw;
+    top: 5vw;
+}
+
+.typePlan{
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    right: 10vw;
+    top: 9vw;
+}
+
+.detailPlan{
+    position: absolute;
+    display: grid;
+    /*          : filas columnas;*/
+    grid-template: repeat(4,minmax(4vw,min-content))/ 15% 85%;
+    grid-template-areas: "number hour"
+                        "number onClass"
+                        "detail detail"
+                        "btn-select btn-select";
+
+    justify-items: center;
+    align-content: center;
+    justify-items: start;
+    padding: 1vw;
+    width: 60%;
+    height: 35%;
+    font-size: 2vw;
+    right: 7vw;
+    bottom: 9vw;
+}
+
+.number{
+    color: red;
+    grid-area: number;
+    font-size: 5vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    position: absolute;
+
+}
+.hour {
+    grid-area: hour;
+    font-size: 3vw;
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    align-content: center;
+    text-align: start;
+    margin: 0;
+}
+.onClass{
+    grid-area: onClass;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5vw;
+    text-align: start;
+}
+
+.detail{
+    grid-area: detail;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.2vw;
+    text-align: start;
+}
+
+.btn-select{
+    grid-area: btn-select;
+    width: 100%
+}
+
+.detailPlan img{
+    width: 10vw;
+}
+
+@media screen and (max-width:400px) {
+    .container-plans{
+        display: initial;
+    }
+
+    .promo img {
+        width: 13vw;
+        right: 11vw;
+        top: -2vw;
+    }
+
+    .premium img {
+        width: 13vw;
+        right: 11vw;
+        top: -2vw;
+    }
+
+    .costPlan{
+        font-size: 9vw;
+        right: 22vw;
+        top: 15vw;    
+    }
+
+    .typePlan{
+        font-size: 5vw;
+        right: 25vw;
+        top: 25vw;
+    }
+
+    .detailPlan{
+        right: 16vw;
+        height: 40%;
+        bottom: 20vw;
+    }
+
+    .hour{
+        font-size: 8vw;
+    }
+
+    .number{
+        font-size: 15vw;
+    }
+
+    .onClass{
+        font-size: 3vw;
+
+    }
+
+    .detail{
+        font-size: 4vw;
+    }
+
+    .btn-select img{
+        width: 30vw;
+    }
+
+    
+}
+

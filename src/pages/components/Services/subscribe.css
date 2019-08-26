@@ -1,0 +1,86 @@
+
+
+/*Section subscribe 1 */
+
+.container-susbscribe{
+    display: grid;
+    justify-items: center;
+    height: -webkit-fill-available;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.triangle{
+    width: 100%;
+    height: 20%;
+}
+.content-susbscribe{
+    height: 80%;
+
+}
+
+.triangleSubscribe{
+    position: relative;
+}
+
+.triangle img{
+    width: 20%;
+    
+}
+
+.discount{
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 10vw; 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.liveClass{
+    margin-top: 10px;
+    width: 60%;
+    font-size: 2vw;
+}
+
+.btn-email{
+    background: transparent;
+    height: 42px;
+    width: 220px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 0.7vw;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+
+.content-interesting{
+    position: absolute; 
+    justify-content: center;
+    display: flex;
+    left: 42.5vw;
+}
+
+.btn-interesting{
+    position: relative;
+    width: 120px;
+}
+
+.text-interesting{
+    position: absolute;
+    display: flex;
+    color: white;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+}
+
+

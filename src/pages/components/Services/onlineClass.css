@@ -1,0 +1,57 @@
+
+/* Section Tutorias Online */
+
+
+.containerOverlay img{
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
+.containerOverlay {
+    position: relative;
+}
+
+.onlineClassOverlay {
+    background: rgba(255,176,0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
+
+
+.dividerWhite{
+    border-bottom: 2px solid #FFF;   
+    margin: 2px 0;
+
+}
+
+.dividerBrown{
+    border-bottom: 2px solid #DA9428;   
+    width: 210px;
+    justify-items: center;
+  
+}
+
+.dividerBrownQuality{
+    border-bottom: 2px solid #DA9428;   
+    width: 210px;
+    justify-items: center;
+  
+}
+
+.online-tutoring strong{ 
+    font-size: 4vw !important;
+    line-height: 1 !important;
+}
+
+.online-class{
+    font-size: 2vw;
+}

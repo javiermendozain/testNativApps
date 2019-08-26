@@ -1,0 +1,132 @@
+
+/* Setions how work */
+.how-work{
+    display: grid;
+    text-align: center;
+}
+.text-how-work strong{
+    font-size: 4vw;
+    line-height: 1 !important;  
+}
+
+
+.conatiner-steps{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 5px;
+}
+
+.container-step-1 img,
+.container-step-2 img,
+.container-step-3 img,
+.container-step-4 img{
+    width: 70%;
+}
+
+.container-step-1, .container-step-2,.container-step-3,.container-step-4 {
+    width: 1r;
+    position: relative;
+}
+
+.numbStepOverlay-1,
+.numbStepOverlay-2,
+.numbStepOverlay-3,
+.numbStepOverlay-4 {
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 10vw; 
+}
+
+.numbStepOverlay-1{
+    left: 0;
+    right: 20%;
+    top: -20%;
+    bottom: 0;
+}
+.numbStepOverlay-2{
+    left: 0;
+    right: 15%;
+    top: -15%;
+    bottom: 0;
+}
+.numbStepOverlay-3{
+    left: 0;
+    right: 20%;
+    top: -20%;
+    bottom: 0;
+}
+.numbStepOverlay-4{
+    left: 0;
+    right: 15%;
+    top: -28%;
+    bottom: 0;
+}
+
+.container-step-2 img{
+    -moz-transform: rotate(-15deg);
+     -o-transform: rotate(-15deg);
+     -webkit-transform: rotate(-15deg);
+     transform: rotate(-15deg);
+}
+
+.container-step-3 img{
+    -moz-transform: rotate(10deg);
+     -o-transform: rotate(10deg);
+     -webkit-transform: rotate(10deg);
+     transform: rotate(10deg);
+}
+
+.container-step-4 img{
+    -moz-transform: rotate(80deg);
+     -o-transform: rotate(80deg);
+     -webkit-transform: rotate(80deg);
+     transform: rotate(80deg);
+}
+
+
+
+
+@media screen and (max-width:400px) {
+
+    .conatiner-steps{
+        display: initial;
+    }
+
+    .numbStepOverlay-1,
+    .numbStepOverlay-2,
+    .numbStepOverlay-3,
+    .numbStepOverlay-4 {
+        font-size: 30vw; 
+    }
+
+    .numbStepOverlay-1{
+        left: 0;
+        right: 20%;
+        top: -5%;
+        bottom: 0;
+    }
+    .numbStepOverlay-2{
+        left: 0;
+        right: 15%;
+        top: 0;
+        bottom: 0;
+    }
+    .numbStepOverlay-3{
+        left: 0;
+        right: 20%;
+        top: -10%;
+        bottom: 0;
+    }
+    .numbStepOverlay-4{
+        left: 0;
+        right: 15%;
+        top: -15%;
+        bottom: 0;
+    }
+}
+
+

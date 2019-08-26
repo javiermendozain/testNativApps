@@ -1,0 +1,56 @@
+
+/* Footer & conditions */
+
+p{
+    margin: 0 !important;
+    box-sizing: initial !important;
+    line-height: initial !important;
+
+}
+strong{
+    line-height: 3 !important;
+}
+
+.footerOverlay {
+    background: rgba(255,176,0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: grid;
+    align-items: end;
+    justify-items: start;
+    color: white;
+    text-align: start;
+    padding: 30px;
+    -webkit-clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
+.footerContainer{
+    position: relative;
+}
+.youtubeFooter{
+    position: absolute;
+    left: 0;
+    right: 30px;
+    bottom: 15px;
+    top: 0;
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}
+
+.youtubeFooter img{
+    width: 120px;
+}
+
+
+@media screen and (max-width:830px) {
+    .youtubeFooter{
+        justify-items: center;
+        height: 90%;
+    }
+
+}

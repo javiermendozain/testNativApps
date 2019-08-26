@@ -1,0 +1,21 @@
+
+
+/* Subscribe & free class */
+
+.subscribe{
+    display: grid;
+    align-content: start;
+    position: absolute;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 6vw;
+    bottom: 0;
+}
+
+.tutoring{
+    font-size: 4vw;
+}
